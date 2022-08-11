@@ -79,7 +79,7 @@ h2 {
 h4 {
  color: blanchedalmond !important;
  position: relative;
- bottom: 10px; 
+ bottom: -10px !important; 
  font-family: cursive;
 }
 
