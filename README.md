@@ -1,4 +1,4 @@
-# ** finalizacion_ejercicio **
+# **finalizacion_ejercicio**
 
 ## eeste proyecto consiste en una app para agregar tareas a realizar
 #### cuenta con un contador que  marca la cantidad de tareas que agregamos y un boton reset para reiniciar la app
