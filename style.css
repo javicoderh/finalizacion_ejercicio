@@ -1,0 +1,88 @@
+body {
+ background-color: rgb(0, 64, 128);
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.container {
+ position:relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(45, 45, 207);
+ border: groove blue 4px;
+ border-radius: 8%;
+ height: 60vh;
+ width: 30%;
+ box-shadow: 0px 0px 40px rgb(97, 184, 255);
+}
+
+.container h1 {
+ position: relative;  
+ color: rgb(159, 196, 228);
+ text-decoration: underline;
+ font-size: 1.5rem;
+ position: absolute; 
+ top: 0;
+} 
+
+input { 
+ margin-bottom: 20%; 
+ text-align: center;
+ height: 30px;
+ border-radius: 5%;
+ background-color: rgb(103, 160, 211);
+ color: black;
+ font-weight: 900;
+ margin-right: 40px; 
+}
+
+::placeholder {
+ color: rgb(86, 86, 86);
+ font-weight: 900;
+}
+
+.agregar__tarea__btn {
+ background-color: blue;
+ color:aliceblue;
+ font-size: 16px;
+}
+
+.delete__last {
+ background-color: blue;
+ color:aliceblue;
+ font-size: 1rem;
+}
+
+.list {
+ position:absolute;
+ bottom: -150px;
+ z-index: 2;
+ margin-bottom:50%;
+}
+
+ul {
+ z-index: 2;
+}
+
+h2 {
+ position: relative;
+ top: 170px;
+ margin: 40px;
+}
+
+li {
+ color: blanchedalmond;
+ font-size: 1..2rem;
+}
+
+
+span {
+ margin-left: 10px;
+ color:rgb(118, 171, 217)
+}

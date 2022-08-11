@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <link rel="stylesheet" href="style.css"> 
+ <title>Document</title>
+</head>
+<body>
+ <div class="container">
+  <div class="todo-list">
+   <form action="" class="input&btn">
+    <h1>lista de tareas(máximo 12)</h1>
+    <div>
+     <input type="text" id="tarea" class="input__tarea" placeholder="escribe una tarea..." value="">
+     <button id="nvaTarea" class="agregar__tarea__btn">
+      <i class="fa-solid fa-plus">+</i>
+     </button>
+     <button id="borrar_ultimo" class="delete__last">Reset</button>
+    </div>
+   </form>
+   <div id="listaPadre" class="list">
+    <ul id="listaTareas" class="listadoDeTareas">     
+    <li>primera tarea</li>
+    </ul>
+   </div>
+   <div class="footer">
+    <h2 class="footer__tittle"><span id="contador">0</span><span>tareas</span></h2>
+   </div>
+  </div>
+ </div> 
+ <script src="proyecto.js"></script> 
+</body>
+</html>
