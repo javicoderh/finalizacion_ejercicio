@@ -70,6 +70,10 @@ ul {
  z-index: 2;
 }
 
+footer {
+ position: relative;
+ bottom: 40px;
+
 h2 {
  position: relative;
  top: 110px!important;
