@@ -1,7 +1,7 @@
 # ** finalizacion_ejercicio
 
 ## eeste proyecto consiste en una app para agregar tareas a realizar
-## cuenta con un contador que  marca la cantidad de tareas que agregamos y un boton reset para reiniciar la app
+#### cuenta con un contador que  marca la cantidad de tareas que agregamos y un boton reset para reiniciar la app
 
 ###### el primer commit se ingresa el 11/08/2022 a las 11:09 hrs
 
